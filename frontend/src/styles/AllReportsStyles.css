@@ -1,0 +1,22 @@
+/* AdminSidebarStyles.css */
+
+/* Add styles for the table */
+.table-container {
+    margin-top: 0; /* Ensure table is displayed from the top of the page */
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    border: 1px solid #ddd; /* Add border from all sides */
+    padding: 8px;
+  }
+  
+  .table th {
+    background-color: #f2f2f2; /* Add background color to header */
+  }
+  

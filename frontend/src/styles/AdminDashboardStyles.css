@@ -1,0 +1,15 @@
+.doughnut-canva {
+    position: absolute;
+    top: 10px;
+    left: 1000px; 
+    width: 650px; /* Adjust the width as desired */
+    height: 650px; /* Adjust the height as desired */
+    background-color: rgb(242, 246, 248); /* Example background color */
+    border: 1px solid #000000; /* Example border */
+    border-radius: 10px;
+
+}
+
+.box-container{
+    position: absolute;
+}

@@ -1,0 +1,32 @@
+.login-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .login-container h1{
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .login-container label {
+    margin-top: 10px;
+  }
+
+  .login-container select,
+  .login-container input[type="text"] {
+    padding: 5px;
+  }
+
+  .login-container button {
+    width: 100%;
+    padding: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }

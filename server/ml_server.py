@@ -11,8 +11,10 @@ def index():
 @app.route('/predict', methods=['POST'])
 def predict():
     data = request.json['data']
+    print(data)
     prediction = model.predict([data])
     print(prediction)
+
     
     return jsonify({'prediction': prediction.tolist()})
 if __name__ == '__main__':

@@ -1,0 +1,225 @@
+.policy-details p{
+  font-weight: 600;
+}
+
+.claimcontainer {
+  max-width: 24cm; /* A4 paper width */
+  margin: 0 auto; /* Center the container */
+  padding: 25px;
+  border: 1px solid #000; /* Border of A4 paper */
+  background-color: rgb(255, 255, 255);
+  font-size: 14px; /* Decrease font size */
+}
+
+.claimcontainer h1 {
+  text-align: center;
+  font-size: 30px; /* Decrease font size for h1 */
+  font-weight: 600;
+}
+
+
+.claimcontainer p {
+  text-align: center;
+  font-size: 14px; /* Decrease font size for paragraphs */
+  font-weight: 600;
+
+}
+
+.claimcontainer form {
+  width: 100%; /* Make sure form fills container */
+  font-weight: 600;
+
+}
+
+.claimcontainer h3 {
+  text-align: left;
+  font-size: 18px; /* Decrease font size for h1 */
+  font-weight: 600;
+}
+
+.form-group {
+  margin-top: 20px; /* Add space between inputs and button */
+  text-align: center;
+
+}
+
+
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 20px;
+}
+
+.grid-container > div {
+  margin-bottom: 10px;
+}
+
+.form-group {
+  text-align: center;
+}
+
+
+/* */
+
+
+.date-of-accident .grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+/* Dropdown label */
+.date-of-accident label {
+  font-weight: bold;
+}
+
+/* Dropdown select */
+.date-of-accident select,
+.date-of-accident input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+/* Adjustments for smaller screens */
+@media screen and (max-width: 600px) {
+  .date-of-accident .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
+/*  */
+
+
+.accident-area .div4 {
+  margin-top: 15px;
+}
+
+
+.accident-area label {
+  margin-bottom: 10px; /* Add space between labels */
+  margin-right: 60px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.accident-area input[type="radio"] {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #007bff; /* Border color */
+  border-radius: 50%; /* Rounded shape */
+  margin-right: 10px; /* Add space between button and label */
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* styles.css */
+
+/* Container for the form */
+/*  */
+
+/* Grid container */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+/* Individual grid items */
+.div11,
+.div17,
+.div18,
+.div19,
+.div20,
+.div21 {
+  display: block;
+  flex-direction: column;
+  margin-right: 50px;
+  margin-top: 15px;
+  margin-left: 20px;
+
+}
+
+/* Labels */
+label {
+  margin-bottom: 5px;
+  margin-right: 50px;
+  font-weight: bold;
+  font-weight: bold;
+  cursor: pointer;
+  padding-top: 10px;
+}
+
+input[type="radio"] {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #007bff; /* Border color */
+  border-radius: 50%; /* Rounded shape */
+  margin-right: 10px; /* Add space between button and label */
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+
+/* Dropdowns */
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Age input */
+input[type="number"] {
+  width: calc(100% - 16px);
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+}
+
+/* Submit button */
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
