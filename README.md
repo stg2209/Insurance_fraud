@@ -87,12 +87,8 @@ The dataset contains 15,419 instances with 33 features. Preprocessing techniques
 ### Contributing
 We welcome contributions. Please follow the standard GitHub fork and pull request workflow.
 
-### License
-This project is licensed under the MIT License.
-
 ### Contact
 For any queries, please contact:
-- **Kajal Joseph**: kajal.jewani@ves.ac.in
 - **Anish Mayekar**: mayekaranish95@gmail.com
 - **Soham Phalke**: sohamphalke2003@gmail.com
 - **Sanika Rane**: ranesanika3421@gmail.com
