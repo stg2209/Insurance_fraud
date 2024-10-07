@@ -8,7 +8,6 @@ import AssetsImg from "../assets/homepage_bg.png"
 function Home(){
     return(
         <>
-        <Navbar/>
         <br></br><br></br><br></br><br></br>
         <Hero
         cName="hero"
