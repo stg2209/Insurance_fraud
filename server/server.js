@@ -11,10 +11,10 @@ const nodemailer = require('nodemailer');
 const {month,day_of_week,accident_area,day_of_week_claimed,month_claimed,sex,marital_status,fault,policy_type,vehicle_category,vehicle_price,past_no_claims,age_of_vehicle,police_report_filed,witness_present,no_of_supplements,address_change_claims,base_policy } = require("S:/Code/MERN/insurance_fraud/frontend/src/components/Dictionaries");
 
 
-// mongoose
-// .connect('mongodb://127.0.0.1:27017/Insurance_fraud')
-// .then(()=> console.log("Mongo connected"))
-// .catch((err)=> console.log("Mongo not connected"));
+mongoose
+.connect('mongodb://127.0.0.1:27017/Insurance_fraud')
+.then(()=> console.log("Mongo connected"))
+.catch((err)=> console.log("Mongo not connected"));
 
 const admin = new mongoose.Schema({
     username: {
